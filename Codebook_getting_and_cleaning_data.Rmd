@@ -1,0 +1,96 @@
+---
+title: "Codebook_getting_and_cleaning_data_project"
+author: "Giuseppe Modica"
+date: "22/8/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### **Codebook** 
+This code book summarises the data fields in “tidy dataset.txt”
+
+### **Identifiers**
+- subject - the ID of the subject
+- activity - the name of the activity performed by the subject when measurements were taken
+
+### **Measurements** 
+ [1] "subject"                                               
+ [2] "activity"                                              
+ [3] "time_domain_BodyAcceleration-mean()-X"                 
+ [4] "time_domain_BodyAcceleration-mean()-Y"                 
+ [5] "time_domain_BodyAcceleration-mean()-Z"                 
+ [6] "time_domain_BodyAcceleration-std()-X"                  
+ [7] "time_domain_BodyAcceleration-std()-Y"                  
+ [8] "time_domain_BodyAcceleration-std()-Z"                  
+ [9] "time_domain_GravityAcceleration-mean()-X"              
+[10] "time_domain_GravityAcceleration-mean()-Y"              
+[11] "time_domain_GravityAcceleration-mean()-Z"              
+[12] "time_domain_GravityAcceleration-std()-X"               
+[13] "time_domain_GravityAcceleration-std()-Y"               
+[14] "time_domain_GravityAcceleration-std()-Z"               
+[15] "time_domain_BodyAccelerationJerk-mean()-X"             
+[16] "time_domain_BodyAccelerationJerk-mean()-Y"             
+[17] "time_domain_BodyAccelerationJerk-mean()-Z"             
+[18] "time_domain_BodyAccelerationJerk-std()-X"              
+[19] "time_domain_BodyAccelerationJerk-std()-Y"              
+[20] "time_domain_BodyAccelerationJerk-std()-Z"              
+[21] "time_domain_BodyAngular_speed-mean()-X"                
+[22] "time_domain_BodyAngular_speed-mean()-Y"                
+[23] "time_domain_BodyAngular_speed-mean()-Z"                
+[24] "time_domain_BodyAngular_speed-std()-X"                 
+[25] "time_domain_BodyAngular_speed-std()-Y"                 
+[26] "time_domain_BodyAngular_speed-std()-Z"                 
+[27] "time_domain_BodyAngular_speedJerk-mean()-X"            
+[28] "time_domain_BodyAngular_speedJerk-mean()-Y"            
+[29] "time_domain_BodyAngular_speedJerk-mean()-Z"            
+[30] "time_domain_BodyAngular_speedJerk-std()-X"             
+[31] "time_domain_BodyAngular_speedJerk-std()-Y"             
+[32] "time_domain_BodyAngular_speedJerk-std()-Z"             
+[33] "time_domain_BodyAccelerationMagnitude-mean()"          
+[34] "time_domain_BodyAccelerationMagnitude-std()"           
+[35] "time_domain_GravityAccelerationMagnitude-mean()"       
+[36] "time_domain_GravityAccelerationMagnitude-std()"        
+[37] "time_domain_BodyAccelerationJerkMagnitude-mean()"      
+[38] "time_domain_BodyAccelerationJerkMagnitude-std()"       
+[39] "time_domain_BodyAngular_speedMagnitude-mean()"         
+[40] "time_domain_BodyAngular_speedMagnitude-std()"          
+[41] "time_domain_BodyAngular_speedJerkMagnitude-mean()"     
+[42] "time_domain_BodyAngular_speedJerkMagnitude-std()"      
+[43] "frequency_domain_BodyAcceleration-mean()-X"            
+[44] "frequency_domain_BodyAcceleration-mean()-Y"            
+[45] "frequency_domain_BodyAcceleration-mean()-Z"            
+[46] "frequency_domain_BodyAcceleration-std()-X"             
+[47] "frequency_domain_BodyAcceleration-std()-Y"             
+[48] "frequency_domain_BodyAcceleration-std()-Z"             
+[49] "frequency_domain_BodyAccelerationJerk-mean()-X"        
+[50] "frequency_domain_BodyAccelerationJerk-mean()-Y"        
+[51] "frequency_domain_BodyAccelerationJerk-mean()-Z"        
+[52] "frequency_domain_BodyAccelerationJerk-std()-X"         
+[53] "frequency_domain_BodyAccelerationJerk-std()-Y"         
+[54] "frequency_domain_BodyAccelerationJerk-std()-Z"         
+[55] "frequency_domain_BodyAngular_speed-mean()-X"           
+[56] "frequency_domain_BodyAngular_speed-mean()-Y"           
+[57] "frequency_domain_BodyAngular_speed-mean()-Z"           
+[58] "frequency_domain_BodyAngular_speed-std()-X"            
+[59] "frequency_domain_BodyAngular_speed-std()-Y"            
+[60] "frequency_domain_BodyAngular_speed-std()-Z"            
+[61] "frequency_domain_BodyAccelerationMagnitude-mean()"     
+[62] "frequency_domain_BodyAccelerationMagnitude-std()"      
+[63] "frequency_domain_BodyAccelerationJerkMagnitude-mean()" 
+[64] "frequency_domain_BodyAccelerationJerkMagnitude-std()"  
+[65] "frequency_domain_BodyAngular_speedMagnitude-mean()"    
+[66] "frequency_domain_BodyAngular_speedMagnitude-std()"     
+[67] "frequency_domain_BodyAngular_speedJerkMagnitude-mean()"
+[68] "frequency_domain_BodyAngular_speedJerkMagnitude-std()"  
+
+### **Activity labels:** 
+1. Walking
+2. Walking upstairs
+3. Walking downstairs
+4. Sitting
+5. Standing
+
+
